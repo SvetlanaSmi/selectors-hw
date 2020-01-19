@@ -1,0 +1,31 @@
+* {
+    font-size: x-large;
+}
+
+a[href="#menu"] {
+    color: hotpink;
+}
+
+a[href="#articles"] {
+    color: green;
+}
+
+a[href="#articles-last"] {
+    color: red;
+}
+
+h3 span {
+  color: green;
+}
+
+article p span {
+  color: blue;
+}
+
+p+p {
+  color: darkorange;
+}
+
+p span+span{
+    color: red;
+}
