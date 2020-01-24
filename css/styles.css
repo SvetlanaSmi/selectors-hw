@@ -1,31 +1,33 @@
+/*0,0,0,0*/
 * {
     font-size: x-large;
 }
 
+/*0,0,1,1*/
 a[href="#menu"] {
     color: hotpink;
 }
 
-a[href="#articles"] {
+/*0,0,1,1*/
+a[href="#articles"],
+/*0,0,0,2*/
+h3 span {
     color: green;
 }
 
-a[href="#articles-last"] {
+/*0,0,1,1*/
+a[href="#articles-last"],
+/*0,0,0,3*/
+p span+span {
     color: red;
 }
 
-h3 span {
-  color: green;
-}
-
+/*0,0,0,3*/
 article p span {
   color: blue;
 }
 
+/*0,0,0,2*/
 p+p {
   color: darkorange;
-}
-
-p span+span{
-    color: red;
 }
